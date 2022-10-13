@@ -1,0 +1,18 @@
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: my-app-helmrelease
+  namespace: default
+spec:
+  releaseName: my-app-release
+  chart:
+    git: https://gitlab.ippon.fr/pboisson/article-gitops-helmrelease.git
+    ref: master
+    path: chart
+  values:
+    deployment:
+      name: redis
+      version: 3630
+      replicas: 2
+      image: redis
+      port: 8080

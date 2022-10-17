@@ -1,7 +1,7 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: my-app-helmrelease
+  name: my-app-release
   namespace: default
 spec:
   interval: 5m
@@ -20,6 +20,6 @@ spec:
     deployment:
       name: redis
       version: 3630
-      replicas: 3
+      replicas: 1
       image: redis
       port: 8080

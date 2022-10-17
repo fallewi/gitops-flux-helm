@@ -13,9 +13,6 @@ spec:
         name: myappgitsource
         namespace: default
       interval: 1m
-  upgrade:
-    remediation:
-      remediateLastFailure: true
   values:
     deployment:
       name: redis

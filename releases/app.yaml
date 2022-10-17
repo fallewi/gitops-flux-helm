@@ -17,6 +17,6 @@ spec:
     deployment:
       name: redis
       version: 3630
-      replicas: 1
+      replicas: 2
       image: redis
       port: 8080

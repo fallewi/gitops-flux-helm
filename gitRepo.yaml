@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: myappgitsource
+  namespace: default
+spec:
+  interval: 1m0s
+  url: https://gitlab.ippon.fr/pboisson/article-gitops-helmrelease.git
+  ref:
+    branch: main

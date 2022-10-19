@@ -7,7 +7,6 @@ spec:
   interval: 1m
   chart:
     spec:
-      reconcileStrategy: Revision
       chart: chart
       sourceRef:
         kind: GitRepository

@@ -10,7 +10,7 @@ spec:
       chart: chart
       sourceRef:
         kind: GitRepository
-        name: myappgitsource
+        name: myappsource
         namespace: default
       interval: 1m
   values:

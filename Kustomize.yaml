@@ -1,0 +1,11 @@
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: app
+spec:
+  sourceRef:
+    kind: GitRepository
+    name: myappsource
+  path: ./config
+  prune: true
+  interval: 1m

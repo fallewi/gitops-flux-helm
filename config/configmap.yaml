@@ -5,5 +5,5 @@ data:
 kind: ConfigMap
 metadata:
   creationTimestamp: null
-  name: my-config
+  name: my-config1
   namespace: default

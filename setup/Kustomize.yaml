@@ -6,6 +6,6 @@ spec:
   sourceRef:
     kind: GitRepository
     name: myappsource
-  path: ./config
+  path: ../config
   prune: true
   interval: 1m

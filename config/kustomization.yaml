@@ -10,4 +10,4 @@ commonLabels:
 
 resources:
 - configmap.yaml
-- app.yaml
+- ../releases/app.yaml

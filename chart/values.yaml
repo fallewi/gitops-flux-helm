@@ -1,6 +1,6 @@
 deployment:
-  name: redis
-  version: 3630
-  replicas: 3
-  image: redis
-  port: 8080  
+  name: ToBeOverride
+  version: ToBeOverride
+  replicas: ToBeOverride
+  image: ToBeOverride
+  port: ToBeOverride

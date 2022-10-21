@@ -1,6 +1,0 @@
-deployment:
-  name: ToBeOverride
-  version: ToBeOverride
-  replicas: ToBeOverride
-  image: ToBeOverride
-  port: ToBeOverride

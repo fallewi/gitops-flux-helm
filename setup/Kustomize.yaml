@@ -5,7 +5,7 @@ metadata:
 spec:
   sourceRef:
     kind: GitRepository
-    name: myappsource
+    name: myappgitsource
   path: ../config
   prune: true
   interval: 1m
